@@ -1,0 +1,119 @@
+QA Metrics Notes
+
+Book: "The Economics of Software Quality"
+
+12 Most Effective Software Quality Factors:
+
+1. Low defect potentials
+2. Effective defect prevention methods
+3. High defect detection efficiency (DDE)
+4. High defect removal efficiency (DRE)
+5. Use of pretest inspections
+6. Use of pretest static analysis
+7. Use of formal test case design
+8. Good ease of learning
+9. Good ease of use
+10. Good tech support
+11. High user satisfaction
+12. Good warranty
+
+
+The above has to influence the folllowing:
+1. Cost of development, maintenance, enhancement, and support
+2. The schedules of development, maintenance, enhancement, and support
+3. The direct revenue that teh application will accrue 
+4. The indirect revenue that might accrue from services or related products
+5. The learning curve for user of the app
+6. The operational cost savings that the app provides users
+7. The new kinds of business opportunities that the app will provide to the users.
+
+
+
+-----------------------
+
+Defect Density / Pareto Analysis
+
+Defect Density = # of Defects / Size of Code
+
+You can break this out by module Name too for creating a chart of density per module
+
+----------------------
+
+DDE - Defect Detection Efficiency
+DRE - Defect Removal Efficiency
+
+
+
+DDP (Defect Detection Percentage)
+
+DDP = Defects found / (Defects found + Defects Missed)
+
+On Major's and above
+
+_____________
+
+Predicting Release Dates
+
+Line graph
+Line 1 with # of defects line going down over time
+Line 2 with Testing Cost going up over time
+
+Where they cross is a possible release date?
+
+
+__________________________
+
+TCO - Total Cost of Ownership
+COQ - Cost of Quality
+
+
+
+
+Relationships
+ - Receivables and High Quality Releases
+ - Receivables and Testing Completeness  - Receivables and Testing Complete Date
+ - Chart that client's projects quality score
+ - Opens to Resolved
+ - Open to ReOpens
+ - Resolved - Total defects to Fixed
+ - Resolved - Total defects to Won't fix
+ - Resolved - Total defects to Duplicate
+ - Lines of code / (Lines of code - Lines of code covered with test cases)
+
+
+Receivables
+- BRD
+- Annotated Wires
+- 
+
+
+Test Metrics Glossary
+- Rework Effort Ratio = (Actual rework efforts spent in that phase/ total actual efforts spent in that phase) X 100
+- Requirement Creep= ( Total number of requirements added/No of initial requirements)X100
+- Schedule Variance= ( Actual efforts – estimated efforts ) / Estimated Efforts) X 100
+- Cost of finding defect in testing= (Total effort spent on testing/ defects found in testing)
+- Schedule slippage: (Actual end date – Estimated end date) / (Planned End Date – Planned Start Date) X 100
+
+
+
+
+
+1.0 - Requirements Metrics
+
+% Requirements Traced to Test Cases = Total # of Req's with at least one linked test / Total Number of Reqs
+
+
+2.0 - Percent of Test Case Execution
+
+
+3.0 Test Case Pass Rate
+
+
+4.0 Defect Metrics
+4.1 Trend Analysis
+     The Trend Analysis metric indicates the number of open or unresolved defects by date and aids in determining the quality of testing as well as the progress of resolving defects. (Normal = Bell Curve)
+
+4.2 Defects by Severity
+   The Defects by Severity metric indicates the number of defects grouped by severity level. The team can utilize this report to get an idea of  the number of defects in each level, which would indicate the quality of the solution.
+
+

@@ -1,0 +1,9 @@
+Java - Selenium - Maven Notes
+
+64-bit Java: C:\Program Files\Java\jre1.8.0_101
+ECHO %CLASSPATH%
+C:\Program Files\Java\jre1.8.0_101
+
+
+
+

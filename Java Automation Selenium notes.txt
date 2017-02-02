@@ -1,0 +1,33 @@
+Java notes
+
+C:\Program Files (x86)\Java\jre1.8.0_101\bin
+
+
+12/11/2016
+I installed Java 8 X64 bit package : C:\Program Files\Java\Java SE 8.0
+
+The CLASSPATH in System settings was:
+ C:\Program Files\Java\jre1.8.0_101\lib
+and I changed it to:
+ C:\Program Files\Java\Java SE 8.0\lib
+
+
+
+Then I installed the latest version of Selenium 3.1
+
+
+C:\Program Files\Java\jdk1.8.0_111\bin
+C:\Program Files\Java\Java SE 8.0\bin
+
+
+I copied the gecko driver and put it here: C:\Users\Carl.Arndt\Documents\GitHub\Selenium
+I then added that to the Path env variable to install the Gecko driver.  I also renamed it to 'wires.exe' per instructions found here:
+http://seleniumsimplified.com/2016/04/how-to-use-the-firefox-marionette-driver/
+
+
+New code for Firefox driver:
+String currentDir = System.getProperty("user.dir");
+String marionetteDriverLocation = currentDir + "/tools/marionette/wires.exe";
+System.setProperty("webdriver.gecko.driver", marionetteDriverLocation);
+WebDriver driver = new MarionetteDriver();
+

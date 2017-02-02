@@ -1,0 +1,49 @@
+01-20-2016 QA Symphony - Keith Klain Webinar Notes
+
+Tech trends:
+
+_DD (Fill in the blank - Driven Development
+     BDD, SDD, etc...
+
+
+Testing in 2016:
+- Crowd Sourced Testing
+
+- Actionable Intelligence - fiserv, research - Can we make business decisions with the infomaton produced from software testing?  Can we make quick decsions? Can we do predictive modeling?
+
+- Industry specifics - Swing from general specialist to specialization to verticals
+
+- Adaptive Test Strategies - security, IoT, privacy, automation - Extreamly short time scales, inserting randomness, make short cycles, heuristics, to give information to adpat to market event, changing regulations, etc. Not being reactive, but instead predicting issues.  (Big Regression cycles are dropping in popularity / CI increasing)
+
+- Agile at Scale = Testing CoE>? - consilidated testing center of excellence connected to areas (human scale model)
+
+
+Cool stuff for testers to check out:
+- YouTube Channel: @whiteboardTest
+- Testing in the Pub @DanAshby04 - podcast
+- StarEast
+- Book: Trading Zones and Interactional Expertise - Gorman - About cross discipline collaboration (There is a dojo video video with Martin Hynie)
+- Rapid Software Testing - site
+
+
+Misc Tips:
+
+Checkout company's reports and how my work matches the company's objectives
+  - direct line to what I'm doing to company goals
+
+Do a search on Dice/Indeed and see what other companies are looking for in a tester.
+
+Metrics: Keith takes the Metrics idea and turns it on its head.  He doesn;t believe in putting a Metric card to gether but instead he believes in making sure he understands what the client wants and then makes sure they have it.
+Focus on reporting on: Time and Effort
+
+
+
+
+
+
+
+
+
+
+
+

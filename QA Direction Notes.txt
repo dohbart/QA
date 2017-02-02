@@ -1,0 +1,175 @@
+QA Direction Notes
+
+
+Improvements in order of implementation (tentative):
+
+- Visual Testing with Applitool's "Appliteyes" - Manual Testing
+
+- Automated Testing
+ - Check out Text Editor "Sublime 3"
+ - Maven
+ - More Selenium
+ - Selenium Framework
+ - Choose Project to build 'test template of a framework' of Selenium
+ -   Framework includes: BDD like Cucumber
+
+- Visual Testing with Applitool's "Appliteyes" - Automated Testing
+
+- Metrics
+
+
+
+
+Completing document "Test Tool Compilation"
+Started review of RACI doc
+Start QA Metrics vision, design, implementation (See QA Metrics Notes text document)
+
+
+9. Containerization / Docker
+10. CI - Custom
+
+
+
+-------------------------
+Done:
+
+- Trial of Telerik - Test Studio
+- Jira/Git integration
+
+
+
+-------------------------------
+
+Continuous Integration
+ CircleCI 
+ Jenkins-Selenium-Maven-...
+AWS CI exists now too
+  CodePipeline
+    https://aws.amazon.com/products/developer-tools/ 
+ 
+
+
+
+Performance Testing
+ IDEAS:
+  - Link click speed: Yslow
+  - Size of clickable area test
+  - Navigation click levels/layers (states)
+  - Is more info given?
+   Use as an example of what doesn't work well: Discovernetwork.com - could have been a lot better
+
+
+
+Visual testing
+  Vendor Options
+  Smeartbear's Test Complete
+   vs
+  Applitools - Appliteyes
+     automated visual testing
+     automated visual mobile testing
+     1-Click Visual Web testing
+     has Jenkins plugin
+
+
+
+Service Virtualization
+
+  Parasoft (Niel Angos)
+    CTP - Continuous Testing Platform
+    API Testing Solution - Functional / Load / Performance
+    Parasoft Environment Manager
+    Parasoft Virtualize (Service Virtualization)
+    Neil is setting up a Demo on Friday morning, 11-11 at 11:00
+
+   CA Technologies (Nathan Hicks)
+     CA Continuous Delivery
+     CA Test Case Optimizer
+     CA Test Data Manager
+     CA Service Virtualization
+
+
+SmartBear
+  QA Complete
+  Test Complete
+   Manual & Automation
+  Comparison chart with Test Complete, UFT, and Selenium  (UFT Unified Functional Tester - HP)
+   API testing through
+    Soap UI OpenSource and Soap UI NG Pro (Josh Wood - SOAPAPI / Ready!API)
+   Service Virtualization
+     Easy API Virtualization with ServiceV Pro
+   Ready!API
+   - Functional Testing (SoapUI NG)
+   - Load Testing (Load UI NG Pro)
+   - Security Testing (Secure Pro)
+   - Service Virtualization (Service VPro)
+   Smartbear also has 'Ready!API TestServer' and API Monitoring 'AlertSite'
+   Licenses - 2, the licesnes are floating so any two can use the system (Test Complete, QA Complete), and for Ready!API has 6 licenses.
+ Be sure I ask for Parasoft pricing
+ QA Complete / Test Complete Trial Install is here: chifcbdev01
+  
+
+
+Atlassian
+  Test Management: Zephyr
+
+
+
+Mobile Testing
+  Performance Testing
+    Perfecto Mobile (Uses Selenium)
+      Performance and Network Virtualization
+  Mobile Testing Techniques
+	Exploratory testing
+	Service/API Testing
+	Device Access
+	Security Testing
+	Back-end Testing
+	Internationalization and Localization Testing
+	Test Automation
+	Network Testing
+	Performance Testing
+	Submission Guidelines Testing
+	Compatibility Testing
+
+
+
+
+Mobile Labs
+Derrick Vohs
+Craig Fago
+
+48 devices
+three hubs
+connect to mac mini server
+software and appliance and monitor
+very secure solution
+user control
+concurrently enabled device licensing
+smallest is 4
+they charge on annual subscription basis
+$25,000 per year licensing
+
+
+
+Leora - Experian Test
+Downloaded a white paper for CI for mobile
+Product: CTest
+
+
+Per Nick:
+API Testing - our API is up and running
+ clint and skib convo
+Gartner reports on tools and suites and then aligning
+  features, cost, how does it fill gaps, long term scalability, external research out there too
+Shoot the tools I am considering to Nick and he'll pass it along
+
+
+Training / Goals for a Tester:
+
+Path 1: 
+ Cucumber code
+ Selenium
+ IDE (Eclipse/VS)
+
+Path 2:
+ Test Complete
