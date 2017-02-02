@@ -1,0 +1,35 @@
+Call with iBeta on automation testing - 03-11-2016
+
+Mike
+Darryl
+
+auto framework
+  
+
+Gradle - build and outside calls
+Groovy is an extention of Java and what the tests are coded in
+
+sikuli - takes screenshots and compares
+
+
+Staging - scripts can go into db create data, then check it on site
+
+reporting - cucmber reporting - cucumber.json has the results
+The cucmber tool analyses the json file and makes a nice HTML report of everyting which includes
+graph, list of everyting run
+
+
+
+What we need to run the tests:
+Gradle 2.2.1
+Jdk - 
+Selenium - 
+
+
+Action items:
+Daryl will be getting me a recording of a cucmber text becoming a script
+a copy of a report
+
+Mike - getting me quote
+
+by next week Wednesday (mike is going to SXSW)

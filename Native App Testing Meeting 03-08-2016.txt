@@ -1,0 +1,16 @@
+Native App Testing Meeting 03-08-2016
+John Skibicki
+Ben Murphy
+
+Best to test with client issued devices (ABI iPads for example)
+Casey (or a designated Producer) would gather devices
+(Libby is a Producer & Julie has some producers too)
+
+Use Test Flight to install apps on Browserstack
+
+X-Code can report on App performance stats - memory, processor utilization, etc.
+Right now, we're keeping X-Code in the dev wheelhouse so QA doesn't need to test
+
+
+Note: I looked up Test Flight, and it appears to be down.  I found TestFairy as a replacement.
+

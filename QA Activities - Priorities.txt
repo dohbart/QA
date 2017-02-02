@@ -1,0 +1,59 @@
+
+
+QA Analyst
+Prioritites and Expectations
+
+Test Planning
+
+Testing
+- Test Highest Priority Project
+- Retest Highest Priority Project
+- Maintain test cases on projects in TestRail
+
+Documentation
+
+
+Technologies
+
+
+Misc
+
+
+
+
+
+QA Lead
+Priorities and Expectations
+
+- Test Highest Priority Project
+- Retest Highest Priority Project
+- Maintain test cases on projects in TestRail
+- Maintain VM machines to ensure they are up to date and armed
+- Confirm all os versions on all test devices, record in device list
+- Archive test documents from Jira test request tickets
+
+
+
+
+QA Manager
+Priorities and Expectations
+
+
+
+
+
+
+
+
+QA Activities / Priorities
+
+- Test Highest Priority Project
+- Retest Highest Priority Project
+- Maintain test cases on projects in TestRail
+- Maintain VM machines to ensure they are up to date and armed
+- Confirm all os versions on all test devices, record in device list
+- Archive test documents from Jira test request tickets
+- Learn new QA skills
+  - Please explore Selenium with whatever language you would like to us/learn
+
+

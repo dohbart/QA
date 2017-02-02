@@ -1,0 +1,192 @@
+List of QA To Do's
+
+areas to study:
+#1 Selenium
+#2 Scripting language to write tests in Selenium (Java, Ruby, Python, etc...)
+
+
+To Do: READ 
+
+Idea: Need Large overarching Test Plan for all account
+
+Idea: Document/Presentation that explains all the tools we use and how they fit together (and why we need them)
+
+
+Idea: Use MindMap software to visually depict test coverage
+Idea: Use Risk Based Analysis to prioritize testing activities
+Idea: Communicate more how Testing is a process to obtain Information
+Idea: Develop new Metrics
+  - Deciding which metrics to implement
+   - Defects: Valid to invalid defects
+   - Defects: Caught vs uncaught defects
+   - 
+Idea: Create a web page that has all reports/statuses across all projects.  User can drill down into projetcs for metrics too - JIRA HAS PUBLIC PAGES NOW - THIS CAN MAKE QA REPORTING EASIER
+
+Get all documentation togther for Selenium (JD.com)
+
+
+
+Questions that Metrics can answer:
+- Is my project ready to ship?
+- How high of quality is my product? (DDP - 80-90% is good)
+- How do I know I have run all needed tests? (Coverage mind map)
+- How much do my defects cost?????
+- How effective is my testing?
+- How effective are my test cases (test case effectiveness = No. of defects detected using test cases*100/Total number of defects detected)
+- Requirements Stability Index: {1 - (Total No. of changes /No of initial requirements)}
+- Requirements Creep: (Total No. of requirements added / No of initial requirements) * 100
+- Weighted Defect Density: WDD = (5*Count of fatal defects)+(3*Count of Major defects)+(1*Count of minor defects)
+Note: Here the Values 5, 3, 1 correspond to severities as mentioned below:
+Fatal - 5
+Major - 3
+Minor - 1
+- 
+- Reopen Rate
+
+
+Bonus questions:
+- How much better is my product when I deliver a...
+   BRD
+   Wireframes
+   Specifications
+   Use Cases
+
+
+DRE - Defect Removal Efficiency
+
+
+
+Idea: In QA Quotes, include the Exit/Acceptance Criteria, so it's built in from the very beginning
+- Idea that Ben told me on the train:
+  - If QA could develop some metric that could make preditions on future projects
+    - "Typically, if a project has a BRD, then there are % less defects than those that don't"
+    - chart out metrics across project
+    - 1. Come up with the questions that need to be answered
+    - 2. Find a way to answer those questions
+
+To Do:
+Documententation Related:
+Finish Workflow
+Finish Summary of training
+
+
+ Directions for iBeta Testers
+ Jira documentation
+  Status Workflows
+  Issue Types
+  Defect Process
+  Creating a Project (Workflows, Permissons, Screens, Components, issue types, etc...)
+
+
+Master Test Plan
+ This is broken down by account to have a Master Account Test Plan template
+  Then test plans are created from the Account Test Plan template
+Start the Test Plan for Discover.  Discover now has Web Accessibility Guidelines we must follow.
+
+SA QA team integration.  Master test plans per client/account including tracking goals/targets
+
+Test Tickets in Jira: Flexible ticket spec idea?
+  
+
+
+Training releated:
+Mobile device training
+Selenium training
+Jira Admin Trauining
+Security Testing Training
+API testing training
+
+
+Kinds of testing:
+Functional
+ End to End
+ Smoke
+ Negative
+ Accessibility
+ API
+ Destructive testing
+ Error Handling Testing
+ Model Based - designing and executing the necessary artifacts to perform software testing.
+ Equivalence Partitioning - Equivalence partitioning classifies test data   into Equivalence classes as positive Equivalence classes and negative    Equivalence classes, such classification ensures both positive and   negative conditions are tested.
+ UAT
+ Workflow
+ Resoultion - testing the resolution to a found and fixed bug to ensure that the fix works as designed and has not caused any other bugs in the process.
+ Database
+Non Functional
+ Integration
+ Performance
+  Configuration
+ Automation
+ Load/Stress
+ Install/Uninstall
+ Static 
+ Security
+  Vulnerability
+  Penetration
+ Internationalization (I18n)
+ Localization (l10n)
+  i18n allows applications to support and satisfy the needs of multiple locales, thus “enabling” l10n.
+ Upgrade
+ 
+
+
+
+
+
+
+
+Started:
+
+
+ 
+
+
+Jira Notes/Goals:
+Start looking at security in Jira across projects
+
+
+QA Test Plan Tools Vendors
+http://www.qasymphony.com/qtest.html
+http://www.practitest.com/
+http://www.testuff.com/
+http://www.qmetry.com/
+Testpad
+
+
+---------------------------------------------------------------------
+
+Done:
+Format Jira for logging Defects
+
+Paccar Parts and Service test list revisions
+Creating a Test Request - update workflows, statuses
+Tweek Test Request Workflow process to include resolved/unresolved
+QA Radar (implementing the Test Request tickets)
+Conduct Jira Training for Teams (refer to Jira training outline)
+Writing Defects (audience: Everybody)
+Updated process of testing emails
+Cretaed process of certifying builds
+QA Document - Everything QA for FCB goes in here
+Document for Entering Defects
+QA Blog / QA Project in Basecamp
+
+
+Jira related Done:
+Changing Improvement to Feature Request
+Creating new workflow for Tasks (eliminating the Testing status, adding Complete resolution)
+Creating issue type of Test Request
+Move Tasks that are test requests to Test Requests
+Add section with exact browsers/devices  
+Any updates made notify all watchers
+Jira - due date fields
+
+
+
+
+
+
+
+
+Not doing:
+At task - Jira Integration
+

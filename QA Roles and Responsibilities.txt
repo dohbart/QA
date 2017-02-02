@@ -1,0 +1,53 @@
+QA Goals
+
+
+Quick Wins (< 3 months)
+ - GIT/Jira ticket integration
+   - Dev commits code - Jira ticket comment updated
+ - Introduce simple functional automation (intro to Java/Selenium)
+ - Communication
+  - QA Blog more (latest: 12/10)
+ - Ghost Lab / Device Lab
+- QA Resources
+  - Finish analysis of QA Vendor billable hours for Matt - DONE
+- Examine Jira cloud extension: eazyBI (https://marketplace.atlassian.com/plugins/com.eazybi.atlassian-connect.eazybi-jira/cloud/overview)
+
+Medium range goals ( 6-9 months)
+- Collaboration
+ - UX team
+ - SA team
+ - Communication
+  - Continuously reinforce RACI
+- Automated Functional Testing
+  - Automated browser (Sauce Labs)
+  - Automated Mobile  (Appium)
+- Examine possibility of adding different testing types
+  - Security testing
+  - Accessibility testing
+  - Load / Performance testing
+
+- Metrics
+  - Deciding which metrics to implement
+   - Defects: Valid to invalid defects
+   - Defects: Caught vs uncaught defects
+
+
+
+Long Term Goals (2 years)
+- Learn Perl
+- Learn Selenium
+- Overarching measurement and communication of QA process Improvement
+  - Measurement
+  - Communication
+- Idea that Ben told me on the train:
+  - If QA could develop some metric that could make preditions on future projects
+    - "Typically, if a project has a BRD, then there are % less defects than those that don't"
+    - chart out metrics across project
+    - 1. Come up with the questions that need to be answered
+    - 2. Find a away to answer those questions
+
+
+
+
+Communication
+ - Continuously reinforce RACI
